@@ -203,8 +203,8 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="emailTextField" destination="gRf-zD-h0N" id="wcA-B3-KHz"/>
                         <outlet property="nameTextField" destination="N1V-WN-TzA" id="G2r-oa-Rxd"/>
-                        <outlet property="passwordTextfield" destination="gRf-zD-h0N" id="0aR-9H-DmW"/>
                         <outlet property="tableView" destination="6qO-OM-cTG" id="79C-PR-9z4"/>
                     </connections>
                 </viewController>
