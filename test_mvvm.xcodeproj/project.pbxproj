@@ -13,6 +13,7 @@
 		9308C86123EDDA78006122F7 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9308C86023EDDA78006122F7 /* Order.swift */; };
 		9308C86423EDE32F006122F7 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9308C86323EDE32F006122F7 /* OrderViewModel.swift */; };
 		93159F9224622C3800BBF29C /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93159F9124622C3800BBF29C /* WebService.swift */; };
+		93159F952462350B00BBF29C /* WeatherListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93159F942462350B00BBF29C /* WeatherListViewModel.swift */; };
 		9358875323F75973004F8D54 /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9358875223F75973004F8D54 /* AddCoffeeOrderViewModel.swift */; };
 		936E33E623EB54E4007BEDDB /* OrdersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E33E523EB54E4007BEDDB /* OrdersTableViewController.swift */; };
 		936E33E823EB556C007BEDDB /* AddOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E33E723EB556C007BEDDB /* AddOrderViewController.swift */; };
@@ -35,6 +36,7 @@
 		9308C86023EDDA78006122F7 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		9308C86323EDE32F006122F7 /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
 		93159F9124622C3800BBF29C /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		93159F942462350B00BBF29C /* WeatherListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListViewModel.swift; sourceTree = "<group>"; };
 		9358875223F75973004F8D54 /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
 		936E33E523EB54E4007BEDDB /* OrdersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewController.swift; sourceTree = "<group>"; };
 		936E33E723EB556C007BEDDB /* AddOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,14 @@
 				93159F9124622C3800BBF29C /* WebService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		93159F93246234F300BBF29C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				93159F942462350B00BBF29C /* WeatherListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		936E33E223EB53D9007BEDDB /* NewsApi */ = {
@@ -211,6 +221,7 @@
 		93E7C9F2241AEA2200E1F37A /* GoodWeather */ = {
 			isa = PBXGroup;
 			children = (
+				93159F93246234F300BBF29C /* ViewModels */,
 				93159F9024622C2C00BBF29C /* Services */,
 				93076AF7242AEC4E00F9CF38 /* CustomCells */,
 				93076AF2242AE44C00F9CF38 /* Controllers */,
@@ -294,6 +305,7 @@
 				93076AF9242AEC6D00F9CF38 /* WeatherCell.swift in Sources */,
 				9308C86423EDE32F006122F7 /* OrderViewModel.swift in Sources */,
 				93AC189523847B920076E939 /* AppDelegate.swift in Sources */,
+				93159F952462350B00BBF29C /* WeatherListViewModel.swift in Sources */,
 				9308C86123EDDA78006122F7 /* Order.swift in Sources */,
 				93076AF4242AE46400F9CF38 /* WeatherListTableViewController.swift in Sources */,
 				936E33E823EB556C007BEDDB /* AddOrderViewController.swift in Sources */,
