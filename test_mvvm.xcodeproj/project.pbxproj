@@ -16,6 +16,10 @@
 		93159F952462350B00BBF29C /* WeatherListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93159F942462350B00BBF29C /* WeatherListViewModel.swift */; };
 		9358875323F75973004F8D54 /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9358875223F75973004F8D54 /* AddCoffeeOrderViewModel.swift */; };
 		935A5DB22466402500FB20FD /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935A5DB12466402500FB20FD /* Double+Extension.swift */; };
+		935A5DB72466435500FB20FD /* 740-gear-toolbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 935A5DB42466435500FB20FD /* 740-gear-toolbar@2x.png */; };
+		935A5DB82466435500FB20FD /* 740-gear-toolbar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 935A5DB52466435500FB20FD /* 740-gear-toolbar@3x.png */; };
+		935A5DB92466435500FB20FD /* 740-gear-toolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 935A5DB62466435500FB20FD /* 740-gear-toolbar.png */; };
+		935A5DBB246644E500FB20FD /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935A5DBA246644E500FB20FD /* SettingsTableViewController.swift */; };
 		936E33E623EB54E4007BEDDB /* OrdersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E33E523EB54E4007BEDDB /* OrdersTableViewController.swift */; };
 		936E33E823EB556C007BEDDB /* AddOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E33E723EB556C007BEDDB /* AddOrderViewController.swift */; };
 		93AC189523847B920076E939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AC189423847B920076E939 /* AppDelegate.swift */; };
@@ -40,6 +44,10 @@
 		93159F942462350B00BBF29C /* WeatherListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListViewModel.swift; sourceTree = "<group>"; };
 		9358875223F75973004F8D54 /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
 		935A5DB12466402500FB20FD /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		935A5DB42466435500FB20FD /* 740-gear-toolbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "740-gear-toolbar@2x.png"; sourceTree = "<group>"; };
+		935A5DB52466435500FB20FD /* 740-gear-toolbar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "740-gear-toolbar@3x.png"; sourceTree = "<group>"; };
+		935A5DB62466435500FB20FD /* 740-gear-toolbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "740-gear-toolbar.png"; sourceTree = "<group>"; };
+		935A5DBA246644E500FB20FD /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		936E33E523EB54E4007BEDDB /* OrdersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewController.swift; sourceTree = "<group>"; };
 		936E33E723EB556C007BEDDB /* AddOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewController.swift; sourceTree = "<group>"; };
 		93AC189123847B920076E939 /* test_mvvm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_mvvm.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +80,7 @@
 			children = (
 				93076AF3242AE46400F9CF38 /* WeatherListTableViewController.swift */,
 				93076AF5242AE48E00F9CF38 /* AddWeatherCityViewController.swift */,
+				935A5DBA246644E500FB20FD /* SettingsTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -123,6 +132,16 @@
 				935A5DB12466402500FB20FD /* Double+Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		935A5DB32466432A00FB20FD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				935A5DB62466435500FB20FD /* 740-gear-toolbar.png */,
+				935A5DB42466435500FB20FD /* 740-gear-toolbar@2x.png */,
+				935A5DB52466435500FB20FD /* 740-gear-toolbar@3x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		936E33E223EB53D9007BEDDB /* NewsApi */ = {
@@ -231,6 +250,7 @@
 		93E7C9F2241AEA2200E1F37A /* GoodWeather */ = {
 			isa = PBXGroup;
 			children = (
+				935A5DB32466432A00FB20FD /* Images */,
 				935A5DB02466400A00FB20FD /* Extension */,
 				93159F93246234F300BBF29C /* ViewModels */,
 				93159F9024622C2C00BBF29C /* Services */,
@@ -300,7 +320,10 @@
 			files = (
 				93AC18A123847B940076E939 /* LaunchScreen.storyboard in Resources */,
 				93AC189E23847B940076E939 /* Assets.xcassets in Resources */,
+				935A5DB92466435500FB20FD /* 740-gear-toolbar.png in Resources */,
 				93AC189C23847B920076E939 /* Main.storyboard in Resources */,
+				935A5DB72466435500FB20FD /* 740-gear-toolbar@2x.png in Resources */,
+				935A5DB82466435500FB20FD /* 740-gear-toolbar@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +350,7 @@
 				93AC18B32384A24B0076E939 /* ArticleViewModel.swift in Sources */,
 				93076AF6242AE48E00F9CF38 /* AddWeatherCityViewController.swift in Sources */,
 				93AC189723847B920076E939 /* SceneDelegate.swift in Sources */,
+				935A5DBB246644E500FB20FD /* SettingsTableViewController.swift in Sources */,
 				93AC18B62384A5C00076E939 /* ArticleTableViewCell.swift in Sources */,
 				93AC18B023849EB10076E939 /* Article.swift in Sources */,
 			);
