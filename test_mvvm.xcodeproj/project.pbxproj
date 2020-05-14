@@ -14,6 +14,8 @@
 		9308C86423EDE32F006122F7 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9308C86323EDE32F006122F7 /* OrderViewModel.swift */; };
 		93159F9224622C3800BBF29C /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93159F9124622C3800BBF29C /* WebService.swift */; };
 		93159F952462350B00BBF29C /* WeatherListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93159F942462350B00BBF29C /* WeatherListViewModel.swift */; };
+		932B1782246E066600CBD680 /* AddCityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932B1781246E066600CBD680 /* AddCityViewModel.swift */; };
+		932B1785246E06EA00CBD680 /* BindingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932B1784246E06EA00CBD680 /* BindingTextField.swift */; };
 		935294C1246CC9060058EDE8 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935294C0246CC9060058EDE8 /* SettingsViewModel.swift */; };
 		9358875323F75973004F8D54 /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9358875223F75973004F8D54 /* AddCoffeeOrderViewModel.swift */; };
 		935A5DB22466402500FB20FD /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935A5DB12466402500FB20FD /* Double+Extension.swift */; };
@@ -43,6 +45,8 @@
 		9308C86323EDE32F006122F7 /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
 		93159F9124622C3800BBF29C /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		93159F942462350B00BBF29C /* WeatherListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListViewModel.swift; sourceTree = "<group>"; };
+		932B1781246E066600CBD680 /* AddCityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCityViewModel.swift; sourceTree = "<group>"; };
+		932B1784246E06EA00CBD680 /* BindingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingTextField.swift; sourceTree = "<group>"; };
 		935294C0246CC9060058EDE8 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		9358875223F75973004F8D54 /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
 		935A5DB12466402500FB20FD /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
@@ -125,8 +129,17 @@
 			children = (
 				93159F942462350B00BBF29C /* WeatherListViewModel.swift */,
 				935294C0246CC9060058EDE8 /* SettingsViewModel.swift */,
+				932B1781246E066600CBD680 /* AddCityViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		932B1783246E06D300CBD680 /* CustonControls */ = {
+			isa = PBXGroup;
+			children = (
+				932B1784246E06EA00CBD680 /* BindingTextField.swift */,
+			);
+			path = CustonControls;
 			sourceTree = "<group>";
 		};
 		935A5DB02466400A00FB20FD /* Extension */ = {
@@ -253,6 +266,7 @@
 		93E7C9F2241AEA2200E1F37A /* GoodWeather */ = {
 			isa = PBXGroup;
 			children = (
+				932B1783246E06D300CBD680 /* CustonControls */,
 				935A5DB32466432A00FB20FD /* Images */,
 				935A5DB02466400A00FB20FD /* Extension */,
 				93159F93246234F300BBF29C /* ViewModels */,
@@ -356,7 +370,9 @@
 				93AC189723847B920076E939 /* SceneDelegate.swift in Sources */,
 				935A5DBB246644E500FB20FD /* SettingsTableViewController.swift in Sources */,
 				93AC18B62384A5C00076E939 /* ArticleTableViewCell.swift in Sources */,
+				932B1785246E06EA00CBD680 /* BindingTextField.swift in Sources */,
 				93AC18B023849EB10076E939 /* Article.swift in Sources */,
+				932B1782246E066600CBD680 /* AddCityViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

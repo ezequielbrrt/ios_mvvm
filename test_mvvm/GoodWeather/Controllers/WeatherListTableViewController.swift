@@ -70,6 +70,22 @@ class WeatherListTableViewController: UITableViewController, AddWeatherDelegate{
     }
     
     private func prepareSegueSettingsWeather(segue: UIStoryboardSegue){
+        guard let nav = segue.destination as? UINavigationController else{
+            fatalError("NavitationController not found")
+            
+        }
         
+        guard let settingsTVC = nav.viewControllers.first as? SettingsTableViewController else{
+            fatalError("AddWeatherCityViewController not found")
+        }
+        
+        settingsTVC.delegate = self
+    }
+}
+
+extension WeatherListTableViewController: SettingsDelegate{
+    func settingsDone(vm: SettingsViewModel) {
+        self.weatherListViewModel.updateUnit(to: vm.selectedUnit)
+        self.tableView.reloadData()
     }
 }
