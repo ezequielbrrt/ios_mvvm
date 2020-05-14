@@ -14,6 +14,7 @@
 		9308C86423EDE32F006122F7 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9308C86323EDE32F006122F7 /* OrderViewModel.swift */; };
 		93159F9224622C3800BBF29C /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93159F9124622C3800BBF29C /* WebService.swift */; };
 		93159F952462350B00BBF29C /* WeatherListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93159F942462350B00BBF29C /* WeatherListViewModel.swift */; };
+		935294C1246CC9060058EDE8 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935294C0246CC9060058EDE8 /* SettingsViewModel.swift */; };
 		9358875323F75973004F8D54 /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9358875223F75973004F8D54 /* AddCoffeeOrderViewModel.swift */; };
 		935A5DB22466402500FB20FD /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935A5DB12466402500FB20FD /* Double+Extension.swift */; };
 		935A5DB72466435500FB20FD /* 740-gear-toolbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 935A5DB42466435500FB20FD /* 740-gear-toolbar@2x.png */; };
@@ -42,6 +43,7 @@
 		9308C86323EDE32F006122F7 /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
 		93159F9124622C3800BBF29C /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		93159F942462350B00BBF29C /* WeatherListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListViewModel.swift; sourceTree = "<group>"; };
+		935294C0246CC9060058EDE8 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		9358875223F75973004F8D54 /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
 		935A5DB12466402500FB20FD /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 		935A5DB42466435500FB20FD /* 740-gear-toolbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "740-gear-toolbar@2x.png"; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				93159F942462350B00BBF29C /* WeatherListViewModel.swift */,
+				935294C0246CC9060058EDE8 /* SettingsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				93159F9224622C3800BBF29C /* WebService.swift in Sources */,
 				93AC18B32384A24B0076E939 /* ArticleViewModel.swift in Sources */,
 				93076AF6242AE48E00F9CF38 /* AddWeatherCityViewController.swift in Sources */,
+				935294C1246CC9060058EDE8 /* SettingsViewModel.swift in Sources */,
 				93AC189723847B920076E939 /* SceneDelegate.swift in Sources */,
 				935A5DBB246644E500FB20FD /* SettingsTableViewController.swift in Sources */,
 				93AC18B62384A5C00076E939 /* ArticleTableViewCell.swift in Sources */,

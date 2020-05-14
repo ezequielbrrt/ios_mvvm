@@ -25,7 +25,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             NSAttributedString.Key.foregroundColor: UIColor.white]
         
         UINavigationBar.appearance().tintColor = UIColor.white
+        
+        setUpDefaultSettings()
+        
         return true
+    }
+    
+    private func setUpDefaultSettings(){
+        let userDefaults = UserDefaults.standard
+        if userDefaults.value(forKey: "units") == nil {
+            userDefaults.set(Unit.fahrenheit.rawValue, forKey: "unit")
+        }
     }
 
     // MARK: UISceneSession Lifecycle
