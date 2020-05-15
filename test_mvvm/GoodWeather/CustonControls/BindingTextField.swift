@@ -11,9 +11,7 @@ import UIKit
 
 class BindingTextField: UITextField{
     
-    var textChangeClosure: (String) -> () = {_ in
-        
-    }
+    var textChangeClosure: (String) -> () = {_ in}
     
     override init(frame: CGRect) {
         super.init(frame: frame)
