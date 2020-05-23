@@ -35,6 +35,7 @@
 		93AC18B023849EB10076E939 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AC18AF23849EB10076E939 /* Article.swift */; };
 		93AC18B32384A24B0076E939 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AC18B22384A24B0076E939 /* ArticleViewModel.swift */; };
 		93AC18B62384A5C00076E939 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AC18B52384A5C00076E939 /* ArticleTableViewCell.swift */; };
+		93F547D72478A40C00D586B9 /* WeatherDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F547D62478A40C00D586B9 /* WeatherDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		93AC18AF23849EB10076E939 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		93AC18B22384A24B0076E939 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
 		93AC18B52384A5C00076E939 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		93F547D62478A40C00D586B9 /* WeatherDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				93076AF3242AE46400F9CF38 /* WeatherListTableViewController.swift */,
 				93076AF5242AE48E00F9CF38 /* AddWeatherCityViewController.swift */,
 				935A5DBA246644E500FB20FD /* SettingsTableViewController.swift */,
+				93F547D62478A40C00D586B9 /* WeatherDetailsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 				935294C1246CC9060058EDE8 /* SettingsViewModel.swift in Sources */,
 				93AC189723847B920076E939 /* SceneDelegate.swift in Sources */,
 				935A5DBB246644E500FB20FD /* SettingsTableViewController.swift in Sources */,
+				93F547D72478A40C00D586B9 /* WeatherDetailsViewController.swift in Sources */,
 				93AC18B62384A5C00076E939 /* ArticleTableViewCell.swift in Sources */,
 				932B1785246E06EA00CBD680 /* BindingTextField.swift in Sources */,
 				93AC18B023849EB10076E939 /* Article.swift in Sources */,
