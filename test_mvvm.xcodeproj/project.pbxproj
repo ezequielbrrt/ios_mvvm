@@ -23,6 +23,8 @@
 		935A5DB82466435500FB20FD /* 740-gear-toolbar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 935A5DB52466435500FB20FD /* 740-gear-toolbar@3x.png */; };
 		935A5DB92466435500FB20FD /* 740-gear-toolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 935A5DB62466435500FB20FD /* 740-gear-toolbar.png */; };
 		935A5DBB246644E500FB20FD /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935A5DBA246644E500FB20FD /* SettingsTableViewController.swift */; };
+		936A11CB247C991A00C52E23 /* WeatherDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936A11CA247C991A00C52E23 /* WeatherDataSource.swift */; };
+		936A11CD247CA50200C52E23 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936A11CC247CA50200C52E23 /* TableViewDataSource.swift */; };
 		936E33E623EB54E4007BEDDB /* OrdersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E33E523EB54E4007BEDDB /* OrdersTableViewController.swift */; };
 		936E33E823EB556C007BEDDB /* AddOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E33E723EB556C007BEDDB /* AddOrderViewController.swift */; };
 		93AC189523847B920076E939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AC189423847B920076E939 /* AppDelegate.swift */; };
@@ -55,6 +57,8 @@
 		935A5DB52466435500FB20FD /* 740-gear-toolbar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "740-gear-toolbar@3x.png"; sourceTree = "<group>"; };
 		935A5DB62466435500FB20FD /* 740-gear-toolbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "740-gear-toolbar.png"; sourceTree = "<group>"; };
 		935A5DBA246644E500FB20FD /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		936A11CA247C991A00C52E23 /* WeatherDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataSource.swift; sourceTree = "<group>"; };
+		936A11CC247CA50200C52E23 /* TableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
 		936E33E523EB54E4007BEDDB /* OrdersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewController.swift; sourceTree = "<group>"; };
 		936E33E723EB556C007BEDDB /* AddOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewController.swift; sourceTree = "<group>"; };
 		93AC189123847B920076E939 /* test_mvvm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_mvvm.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,6 +167,15 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		936A11C9247C98FC00C52E23 /* Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+				936A11CA247C991A00C52E23 /* WeatherDataSource.swift */,
+				936A11CC247CA50200C52E23 /* TableViewDataSource.swift */,
+			);
+			path = "Data Sources";
+			sourceTree = "<group>";
+		};
 		936E33E223EB53D9007BEDDB /* NewsApi */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,6 +282,7 @@
 		93E7C9F2241AEA2200E1F37A /* GoodWeather */ = {
 			isa = PBXGroup;
 			children = (
+				936A11C9247C98FC00C52E23 /* Data Sources */,
 				932B1783246E06D300CBD680 /* CustonControls */,
 				935A5DB32466432A00FB20FD /* Images */,
 				935A5DB02466400A00FB20FD /* Extension */,
@@ -359,11 +373,13 @@
 				935A5DB22466402500FB20FD /* Double+Extension.swift in Sources */,
 				93076AF9242AEC6D00F9CF38 /* WeatherCell.swift in Sources */,
 				9308C86423EDE32F006122F7 /* OrderViewModel.swift in Sources */,
+				936A11CB247C991A00C52E23 /* WeatherDataSource.swift in Sources */,
 				93AC189523847B920076E939 /* AppDelegate.swift in Sources */,
 				93159F952462350B00BBF29C /* WeatherListViewModel.swift in Sources */,
 				9308C86123EDDA78006122F7 /* Order.swift in Sources */,
 				93076AF4242AE46400F9CF38 /* WeatherListTableViewController.swift in Sources */,
 				936E33E823EB556C007BEDDB /* AddOrderViewController.swift in Sources */,
+				936A11CD247CA50200C52E23 /* TableViewDataSource.swift in Sources */,
 				93AC18AA23847D200076E939 /* NewsListTableViewController.swift in Sources */,
 				93AC18AD23849DCB0076E939 /* Webservice.swift in Sources */,
 				93159F9224622C3800BBF29C /* WebService.swift in Sources */,
